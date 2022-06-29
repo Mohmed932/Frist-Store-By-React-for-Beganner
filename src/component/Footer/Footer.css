@@ -1,0 +1,58 @@
+.Contain{
+    display: flex;
+    background-color: var(--main-color);
+    margin-top: 20vh;
+}
+.lef{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Desc{
+    margin: 20px 0px;
+}
+.SocialContainer{
+    display: flex;
+}
+.SocialIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.Center{
+    flex: 1;
+    padding: 20px;
+    display: none;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ListItem{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.Right{
+    flex: 1;
+    padding: 20px;
+    background-Color: "#fff8f8";
+}
+.ContactItem{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.Payment{
+    width: 50%;
+}

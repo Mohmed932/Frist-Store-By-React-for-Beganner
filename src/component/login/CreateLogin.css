@@ -1,0 +1,98 @@
+.CreateLogin{
+    display: flex;
+    justify-content: center;
+}
+.Log{
+    display: flex;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    box-shadow: 1px 2px 8px #444;
+    width: 45vw;
+    margin-top: 10vh;
+    padding: 0 30px;
+}
+.from h5{
+    padding: 5vh 0;
+    font-size:30px;
+    color: var(--p-color);
+    position: relative;
+}
+.from .input {
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0;
+    border:  1px solid var(--background-color);
+    outline: none;
+}
+.bypassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 0 50px;
+}
+.byScoil{
+    flex: 1;
+    padding: 0 50px;
+}
+.Scoil{
+    display: flex;
+    padding: 20px;
+    border: 1px solid var(--background-color);
+    width: 13vw;
+    margin: 10px 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Scoil:first-child{
+    background-color: rgba(40, 112, 228, 0.847);
+    color: var(--main-color);
+}
+.Scoil:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.906);
+    color: var(--main-color);
+}
+.Scoil:last-child{
+    background-color: rgba(255, 0, 0, 0.906);
+    color: var(--main-color);
+}
+.Scoil .fa-brands{
+    margin: 0 20px;
+}
+.mainline{
+    background-color: var(--p-color);
+    width: 2px;
+    position: absolute;
+    top: 38vh;
+    left: 48.8vw;
+    height:38vh;
+}
+.line h5{
+    border: 1px solid var(--p-color);
+    margin-top: 11vh;
+    padding: 12px;
+    border-radius: 40px;
+    z-index: 234;
+    background-color: aliceblue;
+}
+.bypassword button{
+    width: fit-content;
+    padding: 13px 30px;
+    font-size: 20px;
+    color: var(--main-color);
+    background-color: var(--background-color);
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.bypassword button:hover{
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+    background-color: transparent;
+    transform: scale(1.0.80);
+}

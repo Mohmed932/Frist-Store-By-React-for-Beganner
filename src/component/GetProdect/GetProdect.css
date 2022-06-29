@@ -1,0 +1,40 @@
+.GetProdect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.data{
+    width: 400px;
+    background-color: aqua;
+    margin: 30px 40px;
+}
+.image{
+    width: 390px;
+}
+.setProdect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.setinput{
+    width: 30vw;
+    padding: 17px;
+    margin: 20vh 0;
+    font-size: 25px;
+    box-shadow: 1px 2px 8px #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setinput input{
+    padding: 10px;
+    width: 30vw;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

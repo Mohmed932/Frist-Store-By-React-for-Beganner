@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin: 0;
+}
+:root{
+    --main-color:#fff;
+    --background-color:rgb(14, 142, 142);
+    --Navbar-color:#f5f5dc92;
+    --h-color:#000;
+    --p-color:#444;
+}
+::selection{
+    background-color:var(--main-color) ;
+    color:var(--background-color) ;
+}
+body{
+    background-color: var(--Navbar-color);
+}
+.btn{
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,122 @@
+.Prodect{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 70px;
+}
+.img{
+    flex: 1;
+}
+.datales{
+    flex: 1.5;
+    margin-left: 40px;
+}
+.hyper{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: var(--p-color);
+}
+.desc{
+    width: 60%;
+    line-height: 1.4;
+    font-size: 20px;
+    color: var(--p-color);
+}
+.price{
+    margin:20px 0;
+    font-size: 35px;
+    font-weight: 200;
+    color: var(--p-color);
+}
+.color{
+    display: flex;
+    align-items: center;
+}
+.lor{
+    margin-right: 10px;
+    font-weight: 200;
+}
+.onecricle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.two{
+    background-color:yellowgreen;
+    margin: 0 10px;
+}
+.three{
+    background-color:blueviolet;
+    margin-right: 10px;
+}
+.opaction{
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+}
+.priceing{
+    display: flex;
+    align-items: center;
+}
+.buttom{
+    margin: 30px 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid var(--background-color);
+    background-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+.cont{
+    border: 1px solid var(--background-color);
+    margin:0 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Comment{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33vw;
+}
+.comant{
+    display: flex;
+    align-items: center;
+}
+.Addacomment{
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    outline: none;
+    background-color: transparent;
+}
+.handelComments{
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--background-color);
+}
+.leave{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--p-color);
+    margin-top: 40px;
+}
+.posting{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    height: 20vh;
+    background-color: blue;
+}
+.leavpp{
+    position: absolute;
+    left:-14vw;
+}
+.leavbtn{
+    position: absolute;
+    left:10vw;
+}
